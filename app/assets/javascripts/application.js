@@ -11,10 +11,12 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require html5shiv-printshiv
+//= require bootstrap-dropdown
+//= require bootstrap
+//= require bootstrap-typeahead
 //= require jquery
 //= require jquery_ujs
 //= require jquery-ui
 //= require jquery.details
 //= require jquery.textchange
-//= require preorder
 //= require_tree .

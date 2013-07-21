@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="span5">
+    <br>
+    <h3 class="box"> Become a <text class="dreamfuel">Dreamfuel</text> Athlete </h3>
+
+    <%= form_for @athlete do |f| %>
+      <div class="control-group">
+        <div class="controls"> 
+          <%= f.text_field :first_name, :class => "input-block-level", :placeholder => "First Name" %>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <div class="controls"> 
+          <%= f.text_field :last_name, :class => "input-block-level", :placeholder => "Last Name" %>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <div class="controls">
+          <%= f.text_field :sport, :class => "input-block-level", :placeholder => "Sport" %>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <div class="controls">
+          <%= f.text_field :bio, :class => "input-block-level", :placeholder => "Choose a Username" %>
+        </div>
+      </div>
+
+      <div class="control-group">
+      	<div class="controls">
+      <div class="control-group">
+        <div class="controls">
+          <%= f.submit 'Register', :class => 'btn btn-success' %>
+        </div>
+      </div>
+    <% end %>
+
+  </div>
+</div>

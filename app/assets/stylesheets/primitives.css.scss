@@ -1,4 +1,5 @@
 
+
 /* For modern browsers */
 .clearfix:before,
 .clearfix:after 
@@ -99,35 +100,22 @@ details summary::-webkit-details-marker { display:none; content: ""; }
 .no-details details > summary::before { content:none }
 .no-details details.open > summary::before {   content:none }
 
-
-
 h1 {
-  margin: 0 auto;
-  margin-left: 380px;
-  width: 174px;
-  font-family: Helvetica;
-  font-size: 42px;
-  font-weight: bold;
+  font-size: 45px;
   color: $h1_color;
-  letter-spacing: -.05em;
-  float: left;
-  a
-  {
-    color: $h1_color;
-    text-decoration: none;
-  }
-  a:hover
-  {
-    color: $h1_color;
-    text-decoration: none;
-  }
+  margin-bottom: 50px;
 }
 
 h2 {
-  font-family: $primary_font, $secondary_font, $tertiary_font;
-  font-size: 45px;
+  font-size: 42px;
   color: $h2_color;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 40px;
+  color: $h3_color;
+  margin-bottom: 35px;
 }
 
 h4 {

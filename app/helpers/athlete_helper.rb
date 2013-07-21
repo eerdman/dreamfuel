@@ -1,0 +1,2 @@
+module AthleteHelper
+end
